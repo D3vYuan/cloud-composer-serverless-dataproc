@@ -241,7 +241,7 @@ The following are the *variables* needed for the dag run:
 |7|`dataproc_bigquery_source_table`|Encrypted Data related to the Dataproc|users
 |8|`dataproc_bigquery_destination_table`|Temporary storage for processed data from Dataproc|users_temp
 |9|`dataproc_bigquery_read_limits`|Number of rows to processed for each Dataproc execution|2
-|10|`dataproc_bigquery_service_account`|Service Account to execute the Dataproc Job|xxxxxxxxxxxx-compute@developer.gserviceaccount.com
+|10|`dataproc_bigquery_service_account`|Service Account to execute the Dataproc Job|\<project-number\>-compute@developer.gserviceaccount.com
 |11|`dataproc_bigquery_subnet`|Subnet to run the Dataproc Job|
 |12|`dataproc_runtime_version`|Runtime version for Dataproc|2.1 <br/> `NOTE:` Please refer [here][ref-serverless-dataproc-runtime] for latest runtime information
 
